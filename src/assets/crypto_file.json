@@ -1,0 +1,63 @@
+[
+
+    {
+        "crypto_key": "BAN",
+        "crypto_info": {
+            "ticker": "BAN",
+            "name": "Banano",
+            "featured": true,
+            "network": "ban",
+            "image": "https://nanswap.com/logo/BAN.svg"
+        }
+    },
+    {
+        "crypto_key": "XNO",
+        "crypto_info": {
+            "ticker": "XNO",
+            "name": "Nano",
+            "featured": true,
+            "network": "xno",
+            "image": "https://nanswap.com/logo/XNO.svg"
+        }
+    },
+    {
+        "crypto_key": "ATOM",
+        "crypto_info": {
+            "ticker": "atom",
+            "name": "Cosmos",
+            "featured": false,
+            "network": "atom",
+            "image": "https://content-api.changenow.io/uploads/atom_4177c38aa8.svg"
+        }
+    },
+    {
+        "crypto_key": "SOL",
+        "crypto_info": {
+            "ticker": "sol",
+            "name": "Solana",
+            "featured": true,
+            "network": "sol",
+            "image": "https://content-api.changenow.io/uploads/sol_3b3f795997.svg"
+        }
+    },
+    {
+        "crypto_key": "BTC",
+        "crypto_info": {
+            "ticker": "btc",
+            "name": "Bitcoin",
+            "featured": true,
+            "network": "btc",
+            "image": "https://content-api.changenow.io/uploads/btc_1_527dc9ec3c.svg"
+        }
+    },
+    {
+        "crypto_key": "ETH",
+        "crypto_info": {
+            "ticker": "eth",
+            "name": "Ethereum",
+            "featured": true,
+            "network": "eth",
+            "image": "https://content-api.changenow.io/uploads/eth_f4ebb54ec0.svg"
+        }
+    }
+]

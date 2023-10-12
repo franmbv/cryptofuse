@@ -1,0 +1,33 @@
+@import "./base.css";
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.colored-section, .white-section{
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+
+}
+.colored-section {
+  background-color: #03c988;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+@media (min-width: 700px) {
+
+  html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  
+  }
+}
+
+
