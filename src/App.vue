@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar.vue";
 import SwapForm from "./components/SwapForm.vue";
 import Footer from "./components/Footer.vue";
 import Carousel from "./components/Carousel.vue";
+import CryptoFile from "./assets/crypto_file.json";
+
 </script>
 
 <template>
@@ -17,7 +19,9 @@ import Carousel from "./components/Carousel.vue";
           class="title_logo"
         />
       </div>
-      <SwapForm />
+      <SwapForm 
+          :options = "options"
+      />
     </div>
   </section>
 

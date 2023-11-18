@@ -1,0 +1,46 @@
+<div class="drop-list row row align-items-center">
+      <div class="from col">
+        <div class="select-box">
+          <label for="first-currency" class="form-text">From</label>
+
+          <select
+            name="first-currency"
+            id="first-currency"
+            v-model="currency_one"
+            class="form-select"
+          >
+            <option
+              v-for="currency in crypto"
+              :value="currency.crypto_key"
+              :key="currency.crypto_key"
+            >
+              {{ currency.crypto_key }}
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="icon col" @click="switchValues()">
+        <i class="fas fa-exchange-alt"></i>
+      </div>
+      <div class="to col">
+        <div class="select-box">
+          <label to="second-currency" class="form-text">To</label>
+
+          <select
+            name="second-currency"
+            id="second-currency"
+            v-model="currency_two"
+            class="form-select"
+          >
+            <!-- Options tag are inserted from JavaScript -->
+            <option
+              v-for="currency in crypto"
+              :value="currency.crypto_key"
+              :key="currency.crypto_key"
+            >
+              {{ currency.crypto_key }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
